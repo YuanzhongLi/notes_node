@@ -26,7 +26,7 @@ debug>
 # debugger;の部分まで読み込まれる
 debug> c
 
-#結果表示と内容編集
+#結果表示と内容編集(loop (print (eval (read))))
 debug> repl
 ```
 
