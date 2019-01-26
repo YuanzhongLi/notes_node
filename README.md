@@ -1,6 +1,8 @@
 ### Yargs
 ```javascript
-console.log('yargs: ', yargs);
+const yargs = require('yargs');
+const argv = yargs.argv;
+console.log('yargs: ', argv);
 ```
 
 ```bash
